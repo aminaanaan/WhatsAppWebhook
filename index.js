@@ -10,8 +10,8 @@ const {
 
 const app = express().use(body_parser.json());
 OracleBot.init(app);
-const token = process.env.TOKEN;
-const mytoken = process.env.MYTOKEN; //Ansh_token
+const token = 'EAAOU0Os5xcoBO0j1MCAwZCQg4SZBiA0pZAxVZBGZCK25lTnRcO3VZBlvzVwzuc1F4sAZBeQrx6fFBVzTyU2WfTfSd6KCeQceUGWAfZAlZBAKq1zYAUPtaOE2jUsBCdbWn4k0XZBjpxr3t2DMtJX1qgwgI7PS8Ro6I0ZA4BQCSs5dI4z6oEaTf3LAweXI7JH5mJRnjbSNsEPVA1B55WBVWd67YMZC';
+const mytoken = 'LdgLJxCQjztVVj5lXC4F2mxeRFFRyyOvtLMYJFfkYHXPCZiGyVfj100TrLQPrGYo';
 let phon_no_id;
 let from;
 
